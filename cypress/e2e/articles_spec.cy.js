@@ -1,11 +1,15 @@
-import { MOST_POPULAR_ARTICLES_URL, API_KEY } from "../../src/utils/constants";
+import { MOST_POPULAR_ARTICLES_URL } from "../../src/utils/constants";
 
 describe("Article List", () => {
   beforeEach(() => {
     // Intercept API call to mock response
-    cy.intercept("GET", `${MOST_POPULAR_ARTICLES_URL}${API_KEY}`, {
-      fixture: "most_popular_articles.json",
-    }).as("getMostPopularArticles");
+    cy.intercept(
+      "GET",
+      `${MOST_POPULAR_ARTICLES_URL}${process.env.REACT_APP_API_SECRET_KEY}`,
+      {
+        fixture: "most_popular_articles.json",
+      },
+    ).as("getMostPopularArticles");
     cy.visit("/");
   });
 

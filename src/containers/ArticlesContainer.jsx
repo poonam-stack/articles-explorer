@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import ArticleList from '../components/Article/ArticleList';
 import ArticleDetails from '../components/Article/ArticleDetails';
-import LoadingBar from '../components/common/LoadingBar';
+import LoadingSpinner from '../components/Loading/LoadingSpinner';
 import useMostPopularArticles from '../hooks/useMostPopularArticles';
 
 const ArticlesContainer = () => {
@@ -12,7 +12,7 @@ const ArticlesContainer = () => {
     console.log('handleArticleClick', { article });
     setSelectedArticle(article);
   };
-  if (isLoading) return <LoadingBar />;
+  if (isLoading) return <LoadingSpinner />;
   if (error) return <h1>{error}</h1>;
   return (
     <div className="container mt-5">
