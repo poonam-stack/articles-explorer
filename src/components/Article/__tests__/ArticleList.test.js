@@ -8,6 +8,11 @@ describe('ArticleList component', () => {
     { id: 2, title: 'Article 2', content: 'Content of Article 2' },
   ];
 
+  it('should not render any articles when there are no articles', () => {
+    render(<ArticleList articles={[]} />);
+
+    expect(screen.queryByTestId('articles-list')).not.toBeInTheDocument();
+  });
   it('renders article titles correctly', () => {
     render(<ArticleList articles={articles} />);
 
