@@ -11,7 +11,7 @@ describe('ArticleList component', () => {
   it('should not render any articles when there are no articles', () => {
     render(<ArticleList articles={[]} />);
 
-    expect(screen.queryByTestId('articles-list')).not.toBeInTheDocument();
+    expect(screen.queryByTestId('article-list')).not.toBeInTheDocument();
   });
   it('renders article titles correctly', () => {
     render(<ArticleList articles={articles} />);

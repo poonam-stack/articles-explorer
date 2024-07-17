@@ -1,6 +1,32 @@
-# Getting Started with Create React App
+# Articles Explorer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This React application displays a list of NY Times Most Popular articles and allows users to view detailed information about each article.
+
+Bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+Es6+ Syntax | Custom Hooks | Functional components | Unit Testing(Jest) | End to End Testing(Cypress) | Eslint | Prettier  
+
+# Features
+
+Article List: Displays a list of articles fetched from an API.
+
+Article Details: Provides detailed information about each article when clicked.
+
+# Installation
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+
+https://github.com/poonam-stack/articles-explorer.git
+
+2. Navigate into the project directory:
+
+cd articles-explorer
+
+3. Install dependencies:
+
+npm install
 
 ## Available Scripts
 
@@ -9,62 +35,58 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm test:coverage`
+
+Generates the coverage report.\
+
+### `npm lint`
+
+Runs the es-lint rules on the code.\
+
+### `npm lint:fix`
+
+Fixes the issues that can be fixed.\
+
+### `npm format`
+
+Formats JavaScript files according to the rules specified in .prettierrc\
+
+### `npm format:fix`
+
+Fixes prettier issues that can be fixed.\
 
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Architecture
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Container-Presentation Pattern
 
-### `npm run eject`
+This project follows a Container-Presentation pattern for component organization.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Containers: Responsible for fetching data and passing it to presentational components.
+- ArticlesContainer
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Presentation Components: Receive data via props and handle UI rendering.
+- ArticleList
+- ArticleDetails
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Benefits
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Separation of Concerns: Container components handle data and state management, while presentational components focus on UI rendering and interaction.
 
-## Learn More
+Reusability: Presentational components (ArticleList, ArticleDetails) can be reused in different contexts or screens.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Scalability: Easy to extend and maintain as the application grows.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

@@ -3,7 +3,6 @@ import React from 'react';
 const ArticleDetails = ({
   article: { id, url, title, abstract, media } = {},
 }) => {
-  console.log('ArticleDetails', { abstract });
   return (
     <div id={id} data-test-id="article-details" className="card mb-4">
       <div className="card-body">

@@ -1,0 +1,187 @@
+{
+  "status": "OK",
+ "num_results": 3,
+  "results": [
+    {
+      "uri": "nyt://article/1b70895f-a6d0-533a-a18b-7a1739e899c2",
+      "url": "https://www.nytimes.com/2024/07/16/nyregion/sue-mi-terry-cia-south-korea.html",
+      "id": 100000009574655,
+      "asset_id": 100000009574655,
+      "source": "New York Times",
+      "published_date": "2024-07-16",
+      "updated": "2024-07-16 20:06:18",
+      "section": "New York",
+      "subsection": "",
+      "nytdsection": "new york",
+      "adx_keywords": "Espionage and Intelligence Services;Central Intelligence Agency;National Security Council;Tufts University;South Korea;North Korea",
+      "column": null,
+      "byline": "By Claire Fahy, Jesse McKinley and Benjamin Weiser",
+      "type": "Article",
+      "title": "Title 1",
+      "abstract": "Description 1",
+      "des_facet": [
+        "Espionage and Intelligence Services"
+      ],
+      "org_facet": [
+        "Central Intelligence Agency",
+        "National Security Council",
+        "Tufts University"
+      ],
+      "per_facet": [],
+      "geo_facet": [
+        "South Korea",
+        "North Korea"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Sue Mi Terry began operating as a foreign agent in June 2013, according to the indictment.",
+          "copyright": "Vivien Killilea/Getty Images for ABA",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/07/16/nyregion/16sdny-indict/16sdny-indict-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/16/nyregion/16sdny-indict/16sdny-indict-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/16/nyregion/16sdny-indict/16sdny-indict-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/eef69883-d403-5de5-9593-af2c8c52d962",
+      "url": "https://www.nytimes.com/2024/07/15/style/on-running-shoes-cloudboom-strike-ls-spray-on.html",
+      "id": 100000009493482,
+      "asset_id": 100000009493482,
+      "source": "International New York Times",
+      "published_date": "2024-07-15",
+      "updated": "2024-07-15 05:00:58",
+      "section": "Style",
+      "subsection": "",
+      "nytdsection": "style",
+      "adx_keywords": "Running;Sneakers;Innovation;Olympic Games (2024);your-feed-fashion;Obiri, Hellen;On AG",
+      "column": null,
+      "byline": "By Vanessa Friedman",
+      "type": "Article",
+      "title": "Title 2",
+      "abstract": "Description 2",
+      "des_facet": [
+        "Running",
+        "Sneakers",
+        "Innovation",
+        "Olympic Games (2024)",
+        "your-feed-fashion"
+      ],
+      "org_facet": [
+        "On AG"
+      ],
+      "per_facet": [
+        "Obiri, Hellen"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Uppers for the one-piece Cloudboom Strike LS are created in a single step using an automated robotic arm at the On labs in Zurich.",
+          "copyright": "On",
+          "approved_for_syndication": 0,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/07/15/multimedia/15ON-OLYMPIC-SNEAKERS-01-jpqw/15ON-OLYMPIC-SNEAKERS-01-jpqw-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/15/multimedia/15ON-OLYMPIC-SNEAKERS-01-jpqw/15ON-OLYMPIC-SNEAKERS-01-jpqw-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/15/multimedia/15ON-OLYMPIC-SNEAKERS-01-jpqw/15ON-OLYMPIC-SNEAKERS-01-jpqw-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/0b881950-07b5-5323-8d7f-5f68dba0db1c",
+      "url": "https://www.nytimes.com/2024/07/16/dining/pete-wells-steps-down-food-critic.html",
+      "id": 100000009406027,
+      "asset_id": 100000009406027,
+      "source": "New York Times",
+      "published_date": "2024-07-16",
+      "updated": "2024-07-16 20:35:14",
+      "section": "Food",
+      "subsection": "",
+      "nytdsection": "food",
+      "adx_keywords": "Restaurants;audio-neutral-informative;audio-neutral-immersive;New York Times",
+      "column": null,
+      "byline": "By Pete Wells",
+      "type": "Article",
+      "title": "After 12 Years of Reviewing Restaurants, I’m Leaving the Table",
+      "abstract": "Pete Wells is moving on from his role as the Times restaurant critic, a job with many rewards and maybe too many courses.",
+      "des_facet": [
+        "Restaurants",
+        "audio-neutral-informative",
+        "audio-neutral-immersive"
+      ],
+      "org_facet": [
+        "New York Times"
+      ],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Liz Clayman for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2024/07/15/multimedia/00trough1-gwpk/00trough1-gwpk-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/15/multimedia/00trough1-gwpk/00trough1-gwpk-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2024/07/15/multimedia/00trough1-gwpk/00trough1-gwpk-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    }
+  ]
+}

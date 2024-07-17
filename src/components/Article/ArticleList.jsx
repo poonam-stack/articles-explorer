@@ -3,7 +3,7 @@ import React from 'react';
 const ArticleList = ({ articles = [], onArticleClick = () => {} }) => {
   if (!articles.length) return;
   return (
-    <div data-test-id="articles-list" className="list-group">
+    <div data-test-id="article-list" className="list-group">
       {articles.map((article) => (
         <div
           key={article.id}
