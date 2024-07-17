@@ -1,0 +1,19 @@
+{
+    "extends": [
+      "react-app",
+      "plugin:react/recommended",
+      "plugin:react-hooks/recommended",
+      "plugin:prettier/recommended",
+      "plugin:cypress/recommended"
+    ],
+    "rules": {
+      // Add or override rules as needed
+      "prettier/prettier":  [
+        "error",
+        {
+          "endOfLine": "auto"
+        }
+      ],
+      "react/prop-types":"off"
+    }
+  }
