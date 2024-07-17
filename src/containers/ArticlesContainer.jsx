@@ -1,17 +1,19 @@
 import React, { useState } from 'react';
 import ArticleList from '../components/Article/ArticleList';
 import ArticleDetails from '../components/Article/ArticleDetails';
+import LoadingBar from '../components/common/LoadingBar';
 import useMostPopularArticles from '../hooks/useMostPopularArticles';
 
 const ArticlesContainer = () => {
-  const { mostPopularArticles } = useMostPopularArticles();
+  const { mostPopularArticles, error, isLoading } = useMostPopularArticles();
   const [selectedArticle, setSelectedArticle] = useState(null);
 
   const handleArticleClick = (article) => {
     console.log('handleArticleClick', { article });
     setSelectedArticle(article);
   };
-
+  if (isLoading) return <LoadingBar />;
+  if (error) return <h1>{error}</h1>;
   return (
     <div className="container mt-5">
       <div className="row">
