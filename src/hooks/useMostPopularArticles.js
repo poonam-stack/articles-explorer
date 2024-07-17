@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { MOST_POPULAR_ARTICLES_URL, ERROR_MSG } from '../utils/constants';
+import { MOST_POPULAR_ARTICLES_URL, ERROR_MSG } from '../constants';
 
 const useMostPopularArticles = () => {
   const [mostPopularArticles, setMostPopularArticles] = useState([]);

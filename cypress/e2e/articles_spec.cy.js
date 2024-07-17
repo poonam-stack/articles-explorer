@@ -1,4 +1,4 @@
-import { MOST_POPULAR_ARTICLES_URL } from "../../src/utils/constants";
+import { MOST_POPULAR_ARTICLES_URL } from "../../src/constants";
 
 describe("Article List", () => {
   beforeEach(() => {

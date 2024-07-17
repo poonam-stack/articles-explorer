@@ -4,7 +4,7 @@ This React application displays a list of NY Times Most Popular articles and all
 
 Bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Es6+ Syntax | Custom Hooks | Functional components | Unit Testing(Jest) | End to End Testing(Cypress) | Eslint | Prettier | Container-Presentation pattern | API Call
+Es6+ Syntax | Custom Hooks | Functional components | Unit Testing(Jest) | End to End Testing(Cypress) | Eslint | Prettier | Container-Presentation pattern | API Call | Coverage Report
 
 # Features
 
