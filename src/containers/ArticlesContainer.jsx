@@ -12,6 +12,7 @@ const ArticlesContainer = () => {
     console.log('handleArticleClick', { article });
     setSelectedArticle(article);
   };
+  console.log('isLoading', isLoading, error);
   if (isLoading) return <LoadingSpinner />;
   if (error) return <h1>{error}</h1>;
   return (
